@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">527991380550-msmg34piq79bn3iusrq1667fvdg9qirg.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://circlemanage-3027a.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">527991380550</string>
+    <string name="google_api_key" translatable="false">AIzaSyBQZ27PSt3wHOTGiuep1VQ9vq6YOScSMzc</string>
+    <string name="google_app_id" translatable="false">1:527991380550:android:d9de11285664626c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBQZ27PSt3wHOTGiuep1VQ9vq6YOScSMzc</string>
+    <string name="google_storage_bucket" translatable="false">circlemanage-3027a.appspot.com</string>
+    <string name="project_id" translatable="false">circlemanage-3027a</string>
+</resources>

@@ -1,0 +1,279 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sjcomp.circlemanage"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:image_picker] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16-->[:image_picker] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+16-->[:image_picker] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+17    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-firestore:19.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/933281e0721a2803804e3743793b9f59/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:13:5-79
+18-->[com.google.firebase:firebase-firestore:19.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/933281e0721a2803804e3743793b9f59/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/ff6b1d62b00c8f06eb878a883e9592f7/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:24:5-68
+19-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/ff6b1d62b00c8f06eb878a883e9592f7/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:24:22-65
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:26:22-79
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+21-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:22-107
+22    <!--
+23 io.flutter.app.FlutterApplication is an android.app.Application that
+24         calls FlutterMain.startInitialization(this); in its onCreate method.
+25         In most cases you can leave this as-is, but you if you want to provide
+26         additional functionality it is fine to subclass or reimplement
+27         FlutterApplication and put your custom class here.
+28    -->
+29    <application
+29-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:9:5-32:19
+30        android:name="io.flutter.app.FlutterApplication"
+30-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:10:9-57
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.0.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/f7d6df6c8c73628cbc886cf75baa8a00/core-1.0.2/AndroidManifest.xml:22:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:12:9-43
+34        android:label="circlemanage" >
+34-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:11:9-37
+35        <activity
+35-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:13:9-31:20
+36            android:name="com.sjcomp.circlemanage.MainActivity"
+36-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:14:13-41
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+37-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:17:13-144
+38            android:hardwareAccelerated="true"
+38-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:18:13-47
+39            android:launchMode="singleTop"
+39-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:15:13-43
+40            android:theme="@style/LaunchTheme"
+40-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:16:13-47
+41            android:windowSoftInputMode="adjustResize" >
+41-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:19:13-55
+42
+43            <!--
+44                 This keeps the window background of the activity showing
+45                 until Flutter renders its first frame. It can be removed if
+46                 there is no splash screen (such as the default splash screen
+47                 defined in @style/LaunchTheme).
+48            -->
+49            <meta-data
+49-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:24:13-26:40
+50                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+50-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:25:17-82
+51                android:value="true" />
+51-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:26:17-37
+52
+53            <intent-filter>
+53-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:27:13-30:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:28:17-68
+54-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:28:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:29:17-76
+56-->/Users/chojake/AndroidStudioProjects/ictcoccopy/android/app/src/main/AndroidManifest.xml:29:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <provider
+60-->[:image_picker] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+61            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+61-->[:image_picker] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+62            android:authorities="com.sjcomp.circlemanage.flutter.image_provider"
+62-->[:image_picker] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+63            android:exported="false"
+63-->[:image_picker] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+64            android:grantUriPermissions="true" >
+64-->[:image_picker] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+65            <meta-data
+65-->[:image_picker] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+66                android:name="android.support.FILE_PROVIDER_PATHS"
+66-->[:image_picker] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+67                android:resource="@xml/flutter_image_picker_file_paths" />
+67-->[:image_picker] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+68        </provider>
+69
+70        <service
+70-->[:cloud_firestore] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+71            android:name="com.google.firebase.components.ComponentDiscoveryService"
+71-->[:cloud_firestore] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+72            android:exported="false" >
+72-->[com.google.firebase:firebase-auth:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5bb249227d8c6eeef073d3fd8895a6ef/jetified-firebase-auth-17.0.0/AndroidManifest.xml:35:13-37
+73            <meta-data
+73-->[:cloud_firestore] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+74-->[:cloud_firestore] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:cloud_firestore] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+76            <meta-data
+76-->[:firebase_core] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+77-->[:firebase_core] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:firebase_core] /Users/chojake/AndroidStudioProjects/ictcoccopy/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-auth:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5bb249227d8c6eeef073d3fd8895a6ef/jetified-firebase-auth-17.0.0/AndroidManifest.xml:36:13-38:85
+80                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+80-->[com.google.firebase:firebase-auth:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5bb249227d8c6eeef073d3fd8895a6ef/jetified-firebase-auth-17.0.0/AndroidManifest.xml:37:17-109
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-auth:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5bb249227d8c6eeef073d3fd8895a6ef/jetified-firebase-auth-17.0.0/AndroidManifest.xml:38:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-firestore:19.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/933281e0721a2803804e3743793b9f59/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:18:13-20:85
+83                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+83-->[com.google.firebase:firebase-firestore:19.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/933281e0721a2803804e3743793b9f59/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:19:17-111
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-firestore:19.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/933281e0721a2803804e3743793b9f59/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:20:17-82
+85            <meta-data
+85-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/ff6b1d62b00c8f06eb878a883e9592f7/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:30:13-32:85
+86                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+86-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/ff6b1d62b00c8f06eb878a883e9592f7/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:31:17-139
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/ff6b1d62b00c8f06eb878a883e9592f7/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:32:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:32:13-34:85
+89                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+89-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:33:17-96
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:34:17-82
+91        </service>
+92
+93        <activity
+93-->[com.google.firebase:firebase-auth:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5bb249227d8c6eeef073d3fd8895a6ef/jetified-firebase-auth-17.0.0/AndroidManifest.xml:24:9-31:50
+94            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+94-->[com.google.firebase:firebase-auth:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5bb249227d8c6eeef073d3fd8895a6ef/jetified-firebase-auth-17.0.0/AndroidManifest.xml:25:13-85
+95            android:excludeFromRecents="true"
+95-->[com.google.firebase:firebase-auth:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5bb249227d8c6eeef073d3fd8895a6ef/jetified-firebase-auth-17.0.0/AndroidManifest.xml:26:13-46
+96            android:exported="true"
+96-->[com.google.firebase:firebase-auth:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5bb249227d8c6eeef073d3fd8895a6ef/jetified-firebase-auth-17.0.0/AndroidManifest.xml:27:13-36
+97            android:launchMode="singleTask"
+97-->[com.google.firebase:firebase-auth:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5bb249227d8c6eeef073d3fd8895a6ef/jetified-firebase-auth-17.0.0/AndroidManifest.xml:28:13-44
+98            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+98-->[com.google.firebase:firebase-auth:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5bb249227d8c6eeef073d3fd8895a6ef/jetified-firebase-auth-17.0.0/AndroidManifest.xml:29:13-102
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+99-->[com.google.firebase:firebase-auth:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5bb249227d8c6eeef073d3fd8895a6ef/jetified-firebase-auth-17.0.0/AndroidManifest.xml:30:13-72
+100
+101        <receiver
+101-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:37:9-44:20
+102            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+102-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:38:13-78
+103            android:exported="true"
+103-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:39:13-36
+104            android:permission="com.google.android.c2dm.permission.SEND" >
+104-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:40:13-73
+105            <intent-filter>
+105-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:41:13-43:29
+106                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+106-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:42:17-81
+106-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:42:25-78
+107            </intent-filter>
+108        </receiver>
+109        <!--
+110             FirebaseInstanceIdService performs security checks at runtime,
+111             no need for explicit permissions despite exported="true"
+112        -->
+113        <service
+113-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:50:9-56:19
+114            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+114-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:51:13-77
+115            android:exported="true" >
+115-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:52:13-36
+116            <intent-filter android:priority="-500" >
+116-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:53:13-55:29
+116-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:53:28-51
+117                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+117-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:54:17-80
+117-->[com.google.firebase:firebase-iid:17.1.2] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e98e706d83f382165569604e040ff2a7/jetified-firebase-iid-17.1.2/AndroidManifest.xml:54:25-77
+118            </intent-filter>
+119        </service>
+120
+121        <provider
+121-->[com.google.firebase:firebase-common:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5c58929acc8ac2121372ba23e372b687/jetified-firebase-common-17.0.0/AndroidManifest.xml:12:9-16:39
+122            android:name="com.google.firebase.provider.FirebaseInitProvider"
+122-->[com.google.firebase:firebase-common:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5c58929acc8ac2121372ba23e372b687/jetified-firebase-common-17.0.0/AndroidManifest.xml:13:13-77
+123            android:authorities="com.sjcomp.circlemanage.firebaseinitprovider"
+123-->[com.google.firebase:firebase-common:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5c58929acc8ac2121372ba23e372b687/jetified-firebase-common-17.0.0/AndroidManifest.xml:14:13-72
+124            android:exported="false"
+124-->[com.google.firebase:firebase-common:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5c58929acc8ac2121372ba23e372b687/jetified-firebase-common-17.0.0/AndroidManifest.xml:15:13-37
+125            android:initOrder="100" />
+125-->[com.google.firebase:firebase-common:17.0.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/5c58929acc8ac2121372ba23e372b687/jetified-firebase-common-17.0.0/AndroidManifest.xml:16:13-36
+126
+127        <activity
+127-->[com.google.android.gms:play-services-base:16.0.1] /Users/chojake/.gradle/caches/transforms-2/files-2.1/95039b00796ce872be118acbce9a7e14/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+128            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+128-->[com.google.android.gms:play-services-base:16.0.1] /Users/chojake/.gradle/caches/transforms-2/files-2.1/95039b00796ce872be118acbce9a7e14/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-base:16.0.1] /Users/chojake/.gradle/caches/transforms-2/files-2.1/95039b00796ce872be118acbce9a7e14/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-base:16.0.1] /Users/chojake/.gradle/caches/transforms-2/files-2.1/95039b00796ce872be118acbce9a7e14/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+131
+132        <receiver
+132-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:29:9-33:20
+133            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+133-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:30:13-85
+134            android:enabled="true"
+134-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:31:13-35
+135            android:exported="false" >
+135-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:32:13-37
+136        </receiver>
+137        <receiver
+137-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:34:9-42:20
+138            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+138-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:35:13-100
+139            android:enabled="true"
+139-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:36:13-35
+140            android:exported="true"
+140-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:37:13-36
+141            android:permission="android.permission.INSTALL_PACKAGES" >
+141-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:38:13-69
+142            <intent-filter>
+142-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:39:13-41:29
+143                <action android:name="com.android.vending.INSTALL_REFERRER" />
+143-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:17-79
+143-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:25-76
+144            </intent-filter>
+145        </receiver>
+146
+147        <service
+147-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:44:9-47:40
+148            android:name="com.google.android.gms.measurement.AppMeasurementService"
+148-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:45:13-84
+149            android:enabled="true"
+149-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:46:13-35
+150            android:exported="false" />
+150-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:47:13-37
+151        <service
+151-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:48:9-52:72
+152            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+152-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:49:13-87
+153            android:enabled="true"
+153-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:50:13-35
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:51:13-37
+155            android:permission="android.permission.BIND_JOB_SERVICE" />
+155-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/e3c0fe4250c498f0994c30ffcb9e0d15/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:52:13-69
+156
+157        <meta-data
+157-->[com.google.android.gms:play-services-basement:16.2.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/6bdd300ef55fbff79ae2b0dd0d7064cc/jetified-play-services-basement-16.2.0/AndroidManifest.xml:23:9-25:69
+158            android:name="com.google.android.gms.version"
+158-->[com.google.android.gms:play-services-basement:16.2.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/6bdd300ef55fbff79ae2b0dd0d7064cc/jetified-play-services-basement-16.2.0/AndroidManifest.xml:24:13-58
+159            android:value="@integer/google_play_services_version" />
+159-->[com.google.android.gms:play-services-basement:16.2.0] /Users/chojake/.gradle/caches/transforms-2/files-2.1/6bdd300ef55fbff79ae2b0dd0d7064cc/jetified-play-services-basement-16.2.0/AndroidManifest.xml:25:13-66
+160    </application>
+161
+162</manifest>
